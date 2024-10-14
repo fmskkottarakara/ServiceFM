@@ -12,7 +12,7 @@ const Button = ({ children, type, onClick, buttonStyle, buttonSize }) =>{
     const checkButtonSize = SIZES.includes( buttonSize ) ? buttonSize : SIZES[0];
 
     return(
-        <Link to='/sign-up' className='bin-mobile'>
+        <Link to='/contact' className='bin-mobile'>
             <button
             className={`bin ${checkButtonStyle} ${checkButtonSize}`}
             onClick={onClick}

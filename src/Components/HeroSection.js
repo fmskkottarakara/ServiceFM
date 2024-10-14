@@ -6,8 +6,8 @@ import './HeroSection.css';
 function HeroSection() {
   return (
     <div className='hero-container'>
-      <video src='/videos/video-2.mp4' autoPlay loop muted />
-      <h1>PRECISION WELDING</h1>
+      {/* <video src='/videos/video-2.mp4' autoPlay loop muted /> */}
+      <h1>CRAFTED PRECISION</h1>
       <p>FM Engineering Welding Fabrication</p>
       <div className='hero-btns'>
         <Button
@@ -15,7 +15,7 @@ function HeroSection() {
           buttonStyle='btn--outline'
           buttonSize='btn--large'
         >
-          GET STARTED
+          SEND ENQUIRY
         </Button>
          
       </div>
