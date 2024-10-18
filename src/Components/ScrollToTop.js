@@ -8,6 +8,10 @@ function ScrollToTop() {
     window.scrollTo(0, 0);
   }, [location.pathname]); // Runs every time the path changes
 
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+  
   return null;
 }
 
