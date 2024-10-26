@@ -17,7 +17,7 @@ import ScrollToTop from './Components/ScrollToTop';
 function App() {
   return (
     <>
-        <BrowserRouter basename="/Better-FM">
+        <BrowserRouter basename="/ServiceFM">
          <Navbar1 /> 
          <ScrollToTop />
          <Routes>
